@@ -115,5 +115,3 @@ webpack
 - 完成（有没有很开心呢，反正我是小小的开心了一下）
 
 >`webpack {entry file} {destination for bundled file} `这种形式webpack@4已不支持
-
->具体代码请参照https://github.com/laoruiwen/webpack-sample-project
