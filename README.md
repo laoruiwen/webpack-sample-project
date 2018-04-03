@@ -1,10 +1,11 @@
 写在前面的话
-====
+----
 >相信要入门Webpack的小伙伴第一个就能搜到这篇文章[《入门Webpack，看这篇就够了》](https://www.jianshu.com/p/42e11515c10f),不过作者的版本是3.5.3，目前下的最新的4.3.0，按照作者写的，像我这种刚入门的小白会碰到很多坑呀。这里会使用webpack@4按照[zhangwang](https://www.jianshu.com/u/7091a52ac9e5)的思路再走一遍。
 
 >此文涉及的知识点比较多，适合新手看，请各位老鸟选择性略过，谢谢！
 
-####安装
+安装
+----
 - 安装[node.js](https://nodejs.org/en/download/)
 
 - 全局安装`webpack`
@@ -48,7 +49,8 @@ cnpm install --save-dev webpack-cli
 >- `-save || -S      // 运行依赖（发布）`
 >- `-save-dev || -D     //开发依赖（辅助）`
 
-####写入测试文件
+写入测试文件
+----
 - 工程目录如下：
 ![menu.png](https://upload-images.jianshu.io/upload_images/11133151-a2efb4b631e481c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -95,7 +97,8 @@ document.querySelector("#root").appendChild(greeter());
 webpack@4不需要定义入口点
 它会将./src/index.js作为默认值
 
-####运行webpack
+运行webpack
+----
 - 此时直接在Terminal中输入webpack
 ```
 webpack
